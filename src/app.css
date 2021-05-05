@@ -1,0 +1,18 @@
+.selected-elem {
+  outline: 2px dashed red;
+  position: relative;
+}
+
+.adjuster {
+  border: 2px solid green;
+}
+
+.resizer {
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-color: rgba(0, 0, 255, 0.3);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
